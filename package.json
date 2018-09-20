@@ -1,0 +1,29 @@
+{
+  "name": "xcraft-core-probe",
+  "version": "0.0.1",
+  "description": "Xcraft probe utils",
+  "main": "./lib/index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {},
+  "keywords": [
+    "xcraft",
+    "probe",
+    "probing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xcraft-Inc/xcraft-core-probe.git"
+  },
+  "dependencies": {},
+  "author": "Mathieu Schroeter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xcraft-Inc/xcraft-core-probe/issues"
+  },
+  "homepage": "https://github.com/Xcraft-Inc/xcraft-core-probe#readme",
+  "devDependencies": {
+    "xcraft-dev-rules": "^0.2.2"
+  }
+}
