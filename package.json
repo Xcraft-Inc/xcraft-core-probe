@@ -16,6 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/Xcraft-Inc/xcraft-core-probe.git"
   },
+  "config": {
+    "xcraft": {
+      "commands": true
+    }
+  },
   "dependencies": {},
   "author": "Mathieu Schroeter",
   "license": "MIT",
