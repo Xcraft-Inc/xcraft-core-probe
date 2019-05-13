@@ -1,6 +1,6 @@
 {
   "name": "xcraft-core-probe",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Xcraft probe utils",
   "main": "./lib/index.js",
   "engines": {
