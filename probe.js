@@ -4,7 +4,7 @@ const xProbe = require('.');
 
 const cmd = {};
 
-cmd.enable = function(msg, resp) {
+cmd.enable = function (msg, resp) {
   const enabled = xProbe.setEnable(true);
   resp.log.info(`probes ${enabled ? 'enabled' : 'disabled'}`);
   if (enabled) {
@@ -13,7 +13,7 @@ cmd.enable = function(msg, resp) {
   resp.events.send(`probe.enable.${msg.id}.finished`);
 };
 
-cmd.disable = function(msg, resp) {
+cmd.disable = function (msg, resp) {
   const enabled = xProbe.setEnable(false);
   resp.log.info(`probes ${enabled ? 'enabled' : 'disabled'}`);
   resp.events.send(`probe.disable.${msg.id}.finished`);
@@ -24,7 +24,7 @@ cmd.disable = function(msg, resp) {
  *
  * @returns {Object} The list and definitions of commands.
  */
-exports.xcraftCommands = function() {
+exports.xcraftCommands = function () {
   return {
     handlers: cmd,
     rc: {
