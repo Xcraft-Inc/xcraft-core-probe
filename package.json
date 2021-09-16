@@ -27,6 +27,12 @@
     "url": "https://github.com/Xcraft-Inc/xcraft-core-probe/issues"
   },
   "homepage": "https://github.com/Xcraft-Inc/xcraft-core-probe#readme",
+  "dependencies": {
+    "xcraft-core-etc": "^2.1.0"
+  },
+  "optionalDependencies": {
+    "xcraft-core-book": "^1.0.0"
+  },
   "devDependencies": {
     "prettier": "2.0.4",
     "xcraft-dev-prettier": "^2.0.0",
