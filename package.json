@@ -4,7 +4,7 @@
   "description": "Xcraft probe utils",
   "main": "./lib/index.js",
   "engines": {
-    "node": ">=6"
+    "node": ">=14"
   },
   "scripts": {},
   "keywords": [
