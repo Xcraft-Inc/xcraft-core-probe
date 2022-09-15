@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/Xcraft-Inc/xcraft-core-probe#readme",
   "dependencies": {
-    "xcraft-core-etc": "^3.0.0"
+    "xcraft-core-etc": "^3.0.0",
+    "xcraft-core-host": "^3.6.7"
   },
   "optionalDependencies": {
     "xcraft-core-book": "^1.0.0"
